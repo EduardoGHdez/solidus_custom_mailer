@@ -58,6 +58,7 @@ Spree.config do |config|
   #   server: Rails.env.production? ? 'production' : 'test',
   #   test_mode: !Rails.env.production?
   # )
+  config.carton_shipped_email_class = MyCartonMailer
 end
 
 Spree::Frontend::Config.configure do |config|
