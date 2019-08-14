@@ -1,0 +1,5 @@
+{
+  "name": "solidus_custom_mailer",
+  "private": true,
+  "dependencies": {}
+}
